@@ -39,6 +39,10 @@ export type Props = React.ComponentPropsWithRef<typeof View> & {
    */
   onPress?: (e: GestureResponderEvent) => void;
   /**
+   * Function to execute on long press.
+   */
+  onLongPress?: (e: GestureResponderEvent) => void;
+  /**
    * Type of background drawabale to display the feedback (Android).
    * https://reactnative.dev/docs/pressable#rippleconfig
    */
@@ -94,6 +98,7 @@ const DrawerItem = ({
   rippleColor: customRippleColor,
   style,
   onPress,
+  onLongPress,
   background,
   accessibilityLabel,
   right,
@@ -130,6 +135,7 @@ const DrawerItem = ({
         disabled={disabled}
         background={background}
         onPress={onPress}
+        onLongPress={onLongPress}
         style={[
           styles.container,
           { backgroundColor, borderRadius },
