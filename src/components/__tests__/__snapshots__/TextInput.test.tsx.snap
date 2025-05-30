@@ -16,20 +16,28 @@ exports[`call onPress when affix adornment pressed 1`] = `
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -211,7 +219,7 @@ exports[`call onPress when affix adornment pressed 1`] = `
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           {
             "marginLeft": 0,
             "paddingLeft": 40,
@@ -314,20 +322,28 @@ exports[`correctly applies a component as the text label 1`] = `
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -525,7 +541,7 @@ exports[`correctly applies a component as the text label 1`] = `
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           [
             {},
           ],
@@ -556,20 +572,28 @@ exports[`correctly applies cursorColor prop 1`] = `
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -751,7 +775,7 @@ exports[`correctly applies cursorColor prop 1`] = `
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           [
             {},
           ],
@@ -782,20 +806,28 @@ exports[`correctly applies default textAlign based on default RTL 1`] = `
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -977,7 +1009,7 @@ exports[`correctly applies default textAlign based on default RTL 1`] = `
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           [
             {},
           ],
@@ -1236,7 +1268,7 @@ exports[`correctly applies height to multiline Outline TextInput 1`] = `
             "textAlign": "left",
             "textAlignVertical": "top",
           },
-          false,
+          undefined,
           [
             {},
           ],
@@ -1267,20 +1299,28 @@ exports[`correctly applies paddingLeft from contentStyleProp 1`] = `
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -1462,7 +1502,7 @@ exports[`correctly applies paddingLeft from contentStyleProp 1`] = `
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           [
             {},
           ],
@@ -1495,20 +1535,28 @@ exports[`correctly applies textAlign center 1`] = `
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -1690,7 +1738,7 @@ exports[`correctly applies textAlign center 1`] = `
             "textAlign": "center",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           [
             {},
           ],
@@ -1721,20 +1769,28 @@ exports[`correctly renders left-side affix adornment, and right-side icon adornm
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -1916,7 +1972,7 @@ exports[`correctly renders left-side affix adornment, and right-side icon adornm
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           {
             "marginLeft": 0,
             "marginRight": 40,
@@ -2082,9 +2138,7 @@ exports[`correctly renders left-side affix adornment, and right-side icon adornm
                   "flexGrow": 1,
                   "justifyContent": "center",
                 },
-                {
-                  "borderRadius": 20,
-                },
+                undefined,
               ],
             ]
           }
@@ -2092,7 +2146,6 @@ exports[`correctly renders left-side affix adornment, and right-side icon adornm
         >
           <Text
             accessibilityElementsHidden={true}
-            allowFontScaling={false}
             importantForAccessibility="no-hide-descendants"
             pointerEvents="none"
             selectable={false}
@@ -2115,16 +2168,10 @@ exports[`correctly renders left-side affix adornment, and right-side icon adornm
                     "backgroundColor": "transparent",
                   },
                 ],
-                {
-                  "fontFamily": "Material Design Icons",
-                  "fontStyle": "normal",
-                  "fontWeight": "normal",
-                },
-                {},
               ]
             }
           >
-            󰋑
+            heart
           </Text>
         </View>
       </View>
@@ -2149,20 +2196,28 @@ exports[`correctly renders left-side icon adornment, and right-side affix adornm
   <View
     collapsable={false}
     style={
-      {
-        "backgroundColor": "rgba(73, 69, 79, 1)",
-        "bottom": 0,
-        "height": 1,
-        "left": 0,
-        "position": "absolute",
-        "right": 0,
-        "transform": [
-          {
-            "scaleY": 0.5,
-          },
-        ],
-        "zIndex": 1,
-      }
+      [
+        {
+          "bottom": 0,
+          "height": 2,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "zIndex": 1,
+        },
+        {
+          "height": 1,
+        },
+        {
+          "backgroundColor": "rgba(73, 69, 79, 1)",
+          "transform": [
+            {
+              "scaleY": 0.5,
+            },
+          ],
+        },
+        undefined,
+      ]
     }
     testID="text-input-underline"
   />
@@ -2344,7 +2399,7 @@ exports[`correctly renders left-side icon adornment, and right-side affix adornm
             "textAlign": "left",
             "textAlignVertical": "center",
           },
-          false,
+          undefined,
           {
             "marginLeft": 40,
             "marginRight": 0,
@@ -2471,9 +2526,7 @@ exports[`correctly renders left-side icon adornment, and right-side affix adornm
                   "flexGrow": 1,
                   "justifyContent": "center",
                 },
-                {
-                  "borderRadius": 20,
-                },
+                undefined,
               ],
             ]
           }
@@ -2481,7 +2534,6 @@ exports[`correctly renders left-side icon adornment, and right-side affix adornm
         >
           <Text
             accessibilityElementsHidden={true}
-            allowFontScaling={false}
             importantForAccessibility="no-hide-descendants"
             pointerEvents="none"
             selectable={false}
@@ -2504,16 +2556,10 @@ exports[`correctly renders left-side icon adornment, and right-side affix adornm
                     "backgroundColor": "transparent",
                   },
                 ],
-                {
-                  "fontFamily": "Material Design Icons",
-                  "fontStyle": "normal",
-                  "fontWeight": "normal",
-                },
-                {},
               ]
             }
           >
-            󰋑
+            heart
           </Text>
         </View>
       </View>
